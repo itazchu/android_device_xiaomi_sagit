@@ -469,4 +469,6 @@
         <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
     </string-array>
 
+   <!-- Device supports Sustained Performance Mode-->
+   <bool name="config_sustainedPerformanceModeSupported">true</bool>
 </resources>
