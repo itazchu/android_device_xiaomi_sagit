@@ -201,6 +201,7 @@ persist.radio.dynamic_sar=false
 
 #Expose tele camera for below packages
 camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.miui.cit,org.cyanogenmod.snap
+persist.camera.HAL3.enabled=1
 
 #Supported SE type
 ro.se.type=eSE,HCE
@@ -271,3 +272,6 @@ persist.audio.speaker.dualmode=true
 ro.wlan.mimo=1
 
 ro.boot.fingerprint=goodix
+
+# RCS
+persist.rcs.supported=0 
