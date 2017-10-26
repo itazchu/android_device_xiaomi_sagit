@@ -364,3 +364,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/system/vendor/lib64/libprotobuf-cpp-litx.so:system/vendor/lib64/libprotobuf-cpp-litx.so \
+    $(LOCAL_PATH)/prebuilt/system/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so
