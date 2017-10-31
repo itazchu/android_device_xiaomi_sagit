@@ -127,9 +127,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_camera \
     libshim_MiCamera \
-    Camera2 \
     camera.device@3.2-impl \
     android.hardware.camera.provider@2.4-impl
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/system/priv-app/GoogleCamera/GoogleCamera.apk:system/priv-app/GoogleCamera/GoogleCamera.apk
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
