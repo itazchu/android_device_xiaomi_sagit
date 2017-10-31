@@ -125,13 +125,15 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    GoogleCamera \
     libshim_camera \
     libshim_MiCamera \
     camera.device@3.2-impl \
-    android.hardware.camera.provider@2.4-impl
+    android.hardware.camera.provider@2.4-impl 
 
+# Prebuilt
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/system/priv-app/GoogleCamera/GoogleCamera.apk:system/priv-app/GoogleCamera/GoogleCamera.apk
+    $(call find-copy-subdir-files,*,device/xiaomi/sagit/prebuilt/system,system)
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
