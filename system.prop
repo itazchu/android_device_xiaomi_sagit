@@ -1,5 +1,7 @@
 ro.sf.lcd_density=480
 
+persist.camera.HAL3.enabled=1
+
 # System property for AD
 ro.qcom.ad=1
 ro.qcom.ad.calib.data=/system/etc/calib.cfg
@@ -54,6 +56,7 @@ mmp.enable.3g2=true
 media.aac_51_output_enabled=true
 mm.enable.smoothstreaming=true
 persist.mm.enable.prefetch=true
+vidc.enc.dcvs.extra-buff-count=2
 persist.media.treble_omx=false
 
 # Additional buffers shared between Camera and Video
@@ -201,8 +204,7 @@ ro.cutoff_voltage_mv=3400
 persist.radio.dynamic_sar=false
 
 #Expose tele camera for below packages
-camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.miui.cit,org.cyanogenmod.snap
-persist.camera.HAL3.enabled=1
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.miui.cit,org.cyanogenmod.snap
 
 #Supported SE type
 ro.se.type=eSE,HCE
@@ -273,6 +275,3 @@ persist.audio.speaker.dualmode=true
 ro.wlan.mimo=1
 
 ro.boot.fingerprint=goodix
-
-# RCS
-persist.rcs.supported=0 
