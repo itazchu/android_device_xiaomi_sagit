@@ -14,3 +14,6 @@ Including audio-caf, libhardware, bionic.
  - https://review.lineageos.org/193262
  - https://review.lineageos.org/194382
  - https://review.lineageos.org/192490
+
+# For fingerprint
+ - https://review.lineageos.org/188007
