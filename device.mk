@@ -127,7 +127,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCamera \
+    OpenCamera \
     libshim_camera \
     libshim_MiCamera \
     camera.device@3.2-impl \
