@@ -43,9 +43,6 @@ on init
     write /dev/stune/system-background/schedtune.colocate 0
     write /dev/stune/foreground/schedtune.colocate 0
     write /dev/stune/top-app/schedtune.colocate 1
-
-    write /proc/touchpanel/double_tap_enable 1
-
     # Goodix fingerprint
     chown system system /dev/goodix_fp
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
