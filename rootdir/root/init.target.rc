@@ -155,6 +155,9 @@ on boot
    chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/vendor
    chmod 0600 /data/fpc/calibration_image.pndat
 
+   #dt2w
+   write /proc/touchpanel/double_tap_enable 1
+
 # access permission for Speaker SmartPA
     chmod 0666 /dev/i2c-10
 
