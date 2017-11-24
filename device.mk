@@ -385,4 +385,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/system/vendor/lib64/libprotobuf-cpp-litx.so:system/vendor/lib64/libprotobuf-cpp-litx.so \
-    $(LOCAL_PATH)/prebuilt/system/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so
+    $(LOCAL_PATH)/prebuilt/system/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
+    $(LOCAL_PATH)/prebuilt/system/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
+    $(LOCAL_PATH)/prebuilt/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
