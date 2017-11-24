@@ -62,7 +62,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-uart"
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-#TARGET_OTA_ASSERT_DEVICE := sagit
+TARGET_OTA_ASSERT_DEVICE := sagit
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -246,7 +246,7 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := libinit_sagit
-# TARGET_RECOVERY_DEVICE_MODULES := libinit_sagit
+TARGET_RECOVERY_DEVICE_MODULES := libinit_sagit
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
