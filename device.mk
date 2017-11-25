@@ -132,7 +132,8 @@ PRODUCT_PACKAGES += \
     libshim_camera \
     libshim_MiCamera \
     camera.device@3.2-impl \
-    android.hardware.camera.provider@2.4-impl
+    android.hardware.camera.provider@2.4-impl \
+    vendor.qti.hardware.camera.device@1.0
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
@@ -332,6 +333,7 @@ PRODUCT_PACKAGES += \
 # SdcardFS
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.sdcardfs=0
+
 
 # Sensors
 PRODUCT_PACKAGES += \

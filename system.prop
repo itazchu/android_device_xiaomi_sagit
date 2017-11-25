@@ -1,7 +1,5 @@
 ro.sf.lcd_density=480
 
-persist.camera.HAL3.enabled=1
-
 # System property for AD
 ro.qcom.ad=1
 ro.qcom.ad.calib.data=/system/etc/calib.cfg
@@ -211,8 +209,11 @@ ro.cutoff_voltage_mv=3400
 
 persist.radio.dynamic_sar=false
 
-#Expose tele camera for below packages
+# Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.miui.cit,org.cyanogenmod.snap
+persist.camera.mobicat=2
+persist.camera.stats.debugexif=3080192
+persist.ts.rtmakeup=false
 
 #Supported SE type
 ro.se.type=eSE,HCE
