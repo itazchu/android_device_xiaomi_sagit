@@ -421,7 +421,7 @@ service pd_mapper /system/vendor/bin/pd-mapper
 #service gnss-svcd /system/vendor/bin/gnss.qca1530.sh start
 #   class late_start
 #   user root
-#   group gps system qcom_diag diag log inet net_raw
+#   group gps system oem_2950 diag log inet net_raw
 #   disabled
 
 on property:sys.ims.QMI_DAEMON_STATUS=1
@@ -583,7 +583,7 @@ service qdmastatsd /system/bin/qdmastatsd
 service readmac /system/bin/readmac
     class main
     user root
-    group qcom_diag
+    group diag oem_2950
     oneshot
 
 on charger
