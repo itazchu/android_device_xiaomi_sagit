@@ -59,7 +59,7 @@ mm.enable.smoothstreaming=true
 mm.enable.qcom_parser=13631487
 persist.mm.enable.prefetch=true
 vidc.enc.dcvs.extra-buff-count=2
-persist.media.treble_omx=false
+persist.media.treble_omx=true
 
 # Additional buffers shared between Camera and Video
 vidc.enc.dcvs.extra-buff-count=2
