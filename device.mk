@@ -330,11 +330,6 @@ PRODUCT_PACKAGES += \
     libshim_ims \
     rild_socket
 
-# SdcardFS
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.sdcardfs=0
-
-
 # Sensors
 PRODUCT_PACKAGES += \
     context_hub.default \
