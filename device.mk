@@ -309,6 +309,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.msm.usb.configfs.rc \
     init.qcom.rc \
+    init.qcom.power.rc \
     init.qcom.sh \
     init.qcom.sensors.sh \
     init.qcom.usb.rc \
