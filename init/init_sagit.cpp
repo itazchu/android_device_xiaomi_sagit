@@ -36,7 +36,7 @@
 #include "vendor_init.h"
 
 using android::base::GetProperty;
-using android::base::SetProperty;
+using android::init::property_set;
 
 std::string heapminfree;
 std::string heapmaxfree;
@@ -44,9 +44,9 @@ std::string heapmaxfree;
 static void init_finger_print_properties()
 {
 	if (access("/persist/fpc/calibration_image.pndat", 0) == -1) {
-		property_set("ro.boot.fingerprint", "goodix");
+		android::init::property_set("ro.boot.fingerprint", "goodix");
 	} else {
-		property_set("ro.boot.fingerprint", "fpc");
+		android::init::property_set("ro.boot.fingerprint", "fpc");
 	}
 }
 

@@ -24,6 +24,6 @@ LOCAL_CFLAGS := -Wall -DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"
 LOCAL_SRC_FILES := init_sagit.cpp
 LOCAL_MODULE := libinit_sagit
 LOCAL_STATIC_LIBRARIES := \
-    libbase
+    libbase libselinux
 
 include $(BUILD_STATIC_LIBRARY)
