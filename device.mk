@@ -327,7 +327,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.qti.qseecomd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qseecomd.sh \
     $(LOCAL_PATH)/rootdir/etc/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.panel_info.sh \
-    $(LOCAL_PATH)/rootdir/etc/init.qcom.bt.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qcom.bt.sh \
     $(LOCAL_PATH)/rootdir/etc/init.qcom.efs.sync.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qcom.efs.sync.sh \
     $(LOCAL_PATH)/rootdir/etc/init.qcom.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qcom.fm.sh \
     $(LOCAL_PATH)/rootdir/etc/init.qcom.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qcom.post_boot.sh \
