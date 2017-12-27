@@ -97,15 +97,15 @@ etc/firmware/rampatch_tlv_3.0.tlv
 etc/firmware/rampatch_tlv_3.2.tlv
 
 # Camera
-bin/mm-qcamera-daemon
-lib/hw/camera.msm8998.so
-lib/libmmcamera_interface.so
-lib/libmmjpeg_interface.so
-lib/libmm-qcamera.so
-lib/libMiCameraHal.so
-lib/libmorpho_memory_allocator.so
-lib/libmorpho_panorama.so
-lib/libqomx_core.so
+bin/mm-qcamera-daemon|b5a68364f81b924ef53bba0fe1d5ad01f5642335
+lib/hw/camera.msm8998.so|48c9694ad30603cf5d04b94a2788e0b046a35922
+lib/libmmcamera_interface.so|ae859207de415dcb81c933021ac3b9f542a1afc9
+lib/libmmjpeg_interface.so|540c2244f43898749ff2984a1082f63090f6531b
+lib/libmm-qcamera.so|4fbe0e848056b49874fcab38d99037d0df0dab5a
+lib/libMiCameraHal.so|f3292e01d87b738049f8e73ba751e3b292d2eaa2
+lib/libmorpho_memory_allocator.so|7413869521ba70c0464051d76371c7be20a2d14b
+lib/libmorpho_panorama.so|5bee2dd9d1bf5c2d183a03da69b2d44de04d96c0
+lib/libqomx_core.so|ac06bcaa98073400fd39aa69bf4011bb265453ac
 vendor/lib/libarcsoft_beautyshot_image_algorithm.so
 vendor/lib/libarcsoft_beauty_shot.so
 vendor/lib/libarcsoft_beautyshot.so
@@ -535,7 +535,7 @@ vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
 
 # Charger
-bin/hvdcp_opti
+bin/hvdcp_opti:vendor/bin/hvdcp_opti
 
 # CNE
 etc/cne/SwimConfig.xml
@@ -561,7 +561,7 @@ etc/permissions/com.quicinc.cne.xml
 framework/cneapiclient.jar
 framework/com.quicinc.cne.jar
 framework/ConnectivityExt.jar
-vendor/lib64/libcneapiclient.so
+vendor/lib64/libcneapiclient.so|66e5b48557ea0cb7e841816110ba885013a78f57
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libcne.so
 vendor/lib64/libvendorconn.so
@@ -858,7 +858,7 @@ vendor/lib64/libdisp-aba.so
 
 # QMI
 bin/irsc_util
-etc/permissions/qti_permissions.xml
+etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
 lib64/libqminvapi.so
 lib/libqminvapi.so
 vendor/bin/pd-mapper
@@ -898,7 +898,6 @@ vendor/lib/libsmemlog.so
 # RIL
 -app/datastatusnotification/datastatusnotification.apk
 -app/embms/embms.apk
--app/QtiTelephonyService/QtiTelephonyService.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/radish
@@ -928,7 +927,7 @@ vendor/lib64/libril-qc-qmi-1.so
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
-vendor/lib64/libsettings.so
+vendor/lib64/libsettings.so|df3a0181cbae5c3295d23c97c859e6417db99401
 vendor/lib64/libsystem_health_mon.so
 vendor/lib/libmdmdetect.so
 vendor/qcril.db
@@ -986,3 +985,18 @@ vendor/lib/libqvop-service.so
 # WiFi
 bin/cnss_diag
 bin/cnss-daemon
+
+# Widevine from marlin
+vendor/bin/hw/android.hardware.drm@1.0-service.widevine|fd6e14710c196fdd4131afe2ce10c4a5be1b309c
+vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc|51a3168a0dbc064d78ee11ca83614c0cd2e6daa5
+vendor/firmware/widevine.b00|6072a74d5268028a1b6e46c2e545c4f8aaac2735
+vendor/firmware/widevine.b01|e93578f12a8ebce28b1ffd34d8fc6927822c30a9
+vendor/firmware/widevine.b02|e4e22f15b096383eb03602356854a08277142139
+vendor/firmware/widevine.b03|e5c59ff3e9caf54b6ffa999408834c796a5ef52a
+vendor/firmware/widevine.b04|9ef6c47a326c1c5229784bed8c73a04ca0520d27
+vendor/firmware/widevine.b05|d8800470f8aab81f8cc8637646e59b5f7ff29b5c
+vendor/firmware/widevine.b06|a5658e2d83df0dd4def1f12ad50dde6fe318a675
+vendor/firmware/widevine.mdt|b01a1475f3831a70f13c2e0a1d30a40c0b5ee6c3
+vendor/lib/libcppf.so|3c0f6a6c2ed02b35d337b15ae65c6cd4adac9d9e
+vendor/lib/liboemcrypto.so|06ef634aacfbad0a8272fc0c0af0edab30625a60
+vendor/lib/libwvhidl.so|f7288f7a7ed6765bd1d80d639a0aeb0c31eda795
